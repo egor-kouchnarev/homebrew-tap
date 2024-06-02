@@ -9,10 +9,10 @@ class Password < Formula
 
   def install
     system "make"
-    system "make", "install", "DESTDIR=#{prefix}"
+    bin.install "password"
   end
 
   test do
-    system "#{bin}/password", "--version"
+    system "#{bin}/password", "32"
   end
 end
