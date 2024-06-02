@@ -2,7 +2,7 @@ class Passphrase < Formula
   desc "A passphrase generator written in C"
   homepage "https://github.com/egor-kouchnarev/homebrew-passphrase"
   url "https://github.com/egor-kouchnarev/homebrew-passphrase/archive/refs/tags/v0.2.0-alpha.tar.gz"
-  sha256 "7fdb894ad873c2942597aa2203c8a8377bae3ebabb219e53a1bfdd54e1d1688d"
+  sha256 "d25e94ce9f14068977be22891aa5b624980ca50e12f3769cc17c5427ef7472fb"
   license "MIT"
 
   depends_on "make" => :build
